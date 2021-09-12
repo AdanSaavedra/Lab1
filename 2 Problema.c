@@ -12,6 +12,7 @@ int main()
     scanf("%f",&fahrenheit);
     aCelsius = (((fahrenheit - 32) * 5) /9);
     printf("\nLa temperatura en Celsius es de: %.2f ", aCelsius);
+    printf("grados Celsius.\n");
 
     return 0;
 

@@ -18,7 +18,7 @@ int main()
     printf("Introduzca la quinta calificacion: ");
     scanf("%f",&calificacion5);
     resultado = (calificacion1 + calificacion2 + calificacion3 + calificacion4 + calificacion5)/ CANTIDAD_NOTAS;
-    printf("\nEl promedio final es de: %.2f ", resultado);
+    printf("\nEl promedio final es de: %.2f \n", resultado);
 
 
     return 0;
