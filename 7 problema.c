@@ -10,7 +10,7 @@ int main()
     printf("\n\nIntroduzca el valor del producto: ");
     scanf("%f",&producto);
     impuesto = (producto * ITBMS);
-    total=(producto - impuesto);
+    total=(producto + impuesto);
     printf("\nEl ITBMS es de: %.2f ", impuesto);
     printf("\nEl total a pagar incluyendo el impuesto es de: %.2f \n", total );
     return 0;
